@@ -55,9 +55,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 - O layout está disponível no **[Figma](https://www.figma.com/file/XN5gMbp4UIsWUbN88R24JM/SDIE-(SISTEMA-DE-INTEGRA%C3%87%C3%83O-ESCOLAR)?node-id=186883%3A449)**;
 
-<h1 align="center">
-    <img alt="Web" src="./.github/Video.gif" width="900px">
-</h1>
+
 
 ## :heavy_check_mark: :iphone: Resultado Web
 
@@ -68,6 +66,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Web adicionarmateria" src="./.github/adicionarMateria.png" width="300px">
 </h1>
 
+<h1 align="center">
+    <img alt="Web" src="./.github/Video.gif" width="900px">
+</h1>
+
+
 ## :heavy_check_mark: :iphone: Versão Mobile
 <h1 align="center">
     <img alt="Mobile Home" src="./.github/Mobile-home.png" width="200px">
@@ -75,6 +78,10 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Mobile adicionarmateria" src="./.github/Mobile-adicionar.png" width="200px">
     <img alt="Mobile cadastro" src="./.github/Mobile-cadastro.png" width="200px">
 </h1>
+<h1 align="center">
+    <img alt="Web" src="./.github/mobile.gif" width="900px">
+</h1>
+
 
 <a id="como-usar"></a>
 
