@@ -7,12 +7,12 @@
 </h3>
 
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://github.com/Rafael-Rufino/Sistema-de-Intergra-o-Escolar/">
     <img alt="Made by SDIE" src="./.github/video.gif">
   </a>
   <a>
-</p>
+</p> -->
 
 
 
@@ -56,7 +56,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - O layout está disponível no **[Figma](https://www.figma.com/file/XN5gMbp4UIsWUbN88R24JM/SDIE-(SISTEMA-DE-INTEGRA%C3%87%C3%83O-ESCOLAR)?node-id=186883%3A449)**;
 
 <h1 align="center">
-    <!-- <img alt="Web" src="./.github/Video.gif" width="900px"> -->
+    <img alt="Web" src="./.github/Video.gif" width="900px">
 </h1>
 
 ## :heavy_check_mark: :iphone: Resultado Web
