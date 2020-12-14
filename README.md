@@ -1,4 +1,3 @@
-# Sistema-de-Intergração-Escolar
 
 <h3 align="center">
     <img alt="Logo" title="#logo" width="300px" src="./.github/logo.svg">
@@ -7,12 +6,15 @@
     <br>
 </h3>
 
-<p align="center">
+
+<!-- <p align="center">
   <a href="https://github.com/Rafael-Rufino/Sistema-de-Intergra-o-Escolar/">
-    <img alt="made by SDIE" src="./.github/logo.svg">
+    <img alt="Made by SDIE" src="">
   </a>
   <a>
-</p>
+</p> -->
+
+
 
 # Índice
 
@@ -61,8 +63,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 <h1 align="center">
     <img alt="Web Home" src="./.github/home.png" width="300px">
-    <img alt="Web page-estudante" src="./.github/page-estudante.png" width="300px">
     <img alt="Web cadastro" src="./.github/cadastro.png" width="300px">
+    <img alt="Web page-estudante" src="./.github/page-estudante.png" width="300px">
     <img alt="Web adicionarmateria" src="./.github/adicionarMateria.png" width="300px">
 </h1>
 
@@ -70,8 +72,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 <h1 align="center">
     <img alt="Mobile Home" src="./.github/Mobile-home.png" width="200px">
     <img alt="Mobile page-estudante" src="./.github/Mobile-estudante.png" width="200px">
-    <img alt="Mobile cadastro" src="./.github/Mobile-cadastro.png" width="200px">
     <img alt="Mobile adicionarmateria" src="./.github/Mobile-adicionar.png" width="200px">
+    <img alt="Mobile cadastro" src="./.github/Mobile-cadastro.png" width="200px">
 </h1>
 
 <a id="como-usar"></a>
@@ -88,7 +90,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 1. Faça um clone :
 
 ```sh
-  $ git clone https://github.com/Rafael-Rufino/Sistema-de-Intergra-o-Escolar.git
+  $ git clone https://github.com/Rafael-Rufino/SDIE---Projeto-tcc-ifrn-ead.git
 ```
 
 2. Executando a Aplicação:
