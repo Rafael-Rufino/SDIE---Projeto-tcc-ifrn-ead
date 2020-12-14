@@ -342,6 +342,14 @@ nav ul {
 	
 	
 }
+.page-header .header-content strong {
+	font: 700 3.6rem Archivo;
+	text-align: center;
+	justify-content: center;
+    display: flex;
+
+
+}
 
 @media (max-width:1024px){
 	#search-teachers{
@@ -476,6 +484,10 @@ nav ul {
 		width: 100%;
 
 	}
+	
+#search-teachers button {
+    width: 100%;
+}
 
 	.header-content{
 		display: flex;

@@ -50,9 +50,36 @@
     line-height: 2.6rem;
     color: var(--color-text-in-primary);
     margin-top: 2.4rem;
-    text-align: center;
+    text-align: left;
+    padding-left: 22px;
 }
 
+@media(max-width:800px){
+    .page-header .header-content strong{
+        font: 700 2.6rem Archivo;
+        text-align: left;
+        display: flex;
+        padding-left: 22px;
+
+    }
+}
+@media(max-width:600px){
+     .page-header .header-content strong{
+        font: 700 1.5rem Archivo;
+     }
+     
+.page-header .header-content p{
+    
+    font-size: 1.2rem;
+    
+}
+}
+@media(max-width:400px){
+    .page-header .header-content strong{
+        font: 700 1.4rem Archivo;
+     }
+
+}
 
 
 
@@ -77,12 +104,9 @@
         justify-content: center;
 
     }
-    .page-header .header-content strong{
-    display: flex;
-	justify-content: center;
-	text-align: center;
-    align-items: center;
-    }
+    /* .page-header .header-content strong{
+ 
+    } */
 
 }
 

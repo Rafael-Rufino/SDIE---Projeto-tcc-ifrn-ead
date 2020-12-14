@@ -7,12 +7,12 @@
 </h3>
 
 
-<!-- <p align="center">
+<p align="center">
   <a href="https://github.com/Rafael-Rufino/Sistema-de-Intergra-o-Escolar/">
-    <img alt="Made by SDIE" src="">
+    <img alt="Made by SDIE" src="./.github/video.gif">
   </a>
   <a>
-</p> -->
+</p>
 
 
 

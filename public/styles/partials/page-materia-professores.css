@@ -289,6 +289,14 @@ nav ul {
 	margin-left:23%;
 
 }
+.page-header .header-content strong {
+	font: 700 3.6rem Archivo;
+	text-align: center;
+	justify-content: center;
+    display: flex;
+
+
+}
 
 @media (max-width:1024px){
 	.topo-materia{
