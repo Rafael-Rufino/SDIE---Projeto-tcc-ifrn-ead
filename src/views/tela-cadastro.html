@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDIE | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="./images/logo-sdie.svg"  type="image/png">  <!-- propriedade usada para color icones no title -->
+
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/header.css">
+    <link rel="stylesheet" href="./styles/partials/forms.css">
+    <link rel="stylesheet" href="./styles/partials/page-cadastro-usuario.css" >
+
+    <link href="https://fonts.googleapis.com/css2?
+    family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;
+    display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+    crossorigin="anonymous"></script>
+
+    <script src ="./scripts/addField.js" defer></script>
+   
+    
+</head>
+
+<body id="page-cadastro-usuario">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="./">
+                    <img src="./images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="./images/logo-sdie.svg" alt="SDIE">
+
+          </div>
+
+          <div class="header-content">
+              <strong>Que incrível que você quer Pertecer ao nosso Sistema.</strong>
+              <p>O primeiro passo, é preencher esse formulário de inscrição</p>
+          </div>
+        </header>
+
+      <main>
+          <form action="/save-classes" id="create-class" method="POST">
+              <fieldset>
+                  <legend>Seu dados</legend>
+
+                  <div class="input-block">
+                      <label for="name">Nome completo</label>
+                      <input name="name" id="name" required>
+                  </div>
+
+                  <div class="input-block">
+                      <label for="avatar">Link da sua foto <small>(comece com https://)</small></label>
+                      <input name="avatar" id="avatar" type="url" required>
+                  </div>
+
+                
+                  <div class="input-block">
+                    <label for="name">E-mail</label>
+                    <input name="name" id="name" required>
+                </div>
+
+                <div class="input-block">
+                    <label for="avatar">Senha</label>
+                    <input name="avatar"  id="avatar" type="password" required>
+                </div>
+
+                <div class="input-block selecao">
+                    <p><i class="fas fa-exclamation-circle"></i> Atenção</p>
+                </div>
+
+                <div class="selecao">
+                    <label for="avatar"><i class="fas fa-chalkboard-teacher"></i> 
+                      <a href="./page-materia-professores">Professor</a></label>
+                    <input name="avatar"  id="select" type="radio" required>
+                    <label for="avatar"><i class="fas fa-book-reader"></i>
+                      <a href="./page-materia-estudante">Estudante</a></label>
+                    <input name="avatar"  id="select" type="radio" required>
+                </div>
+              </fieldset>
+          </form>
+          <footer>
+              <p>
+                  <img src="./images/icons/warning.svg" alt="Aviso importante">
+                  Importante! <br> Preencha todos os dados
+              </p>
+          
+              <button  type="submit" class="create-class">
+                     <a href="./page-materia-estudante">Salvar cadastro</a>
+              </button>
+          </footer>  
+      </main>
+    </div>
+
+    
+
+</body>
+</html>

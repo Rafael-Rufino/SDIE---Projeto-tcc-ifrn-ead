@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDIE | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="./images/logo-sdie.svg"  type="image/png">  <!-- propriedade usada para color icones no title -->
+
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/header.css">
+    <link rel="stylesheet" href="./styles/partials/forms.css">
+    <link rel="stylesheet" href="./styles/partials/tela-login.css">
+
+    <link href="https://fonts.googleapis.com/css2?
+    family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;
+    display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+		integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+		crossorigin="anonymous"></script>
+
+    <script src ="./scripts/addField.js" defer></script>
+   
+    
+</head>
+
+<body id="page-tela-login">
+
+    <div id="container">
+        <header class="page-header">
+          <div class="top-bar-container">
+                <a href="./">
+                    <img src="./images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="./images/logo-sdie.svg" alt="SDIE">
+
+          </div>
+
+          <div class="header-content">
+              <strong>Bem-vindo ao Sistema de Integração Escolar!</strong>
+              <p>O primeiro passo, faça seu login.</p>
+          </div>
+        </header>
+
+      <main>
+          <form action="/save-classes" id="create-class" method="POST">
+              <fieldset>
+                  <p><i class="fas fa-lock"></i> Login</p>
+                    <hr>
+                    <br>
+                  
+                  <div class="input-block">                     
+                      <label for="name"></label>
+                      <input name="name" placeholder="Digite seu e-mail" id="name" required>
+                  </div>
+
+                  <div class="input-block">
+                      <label for="avatar"></label>
+                     <input  name="avatar"  placeholder= "Digite sua senha" id="avatar" type="password" required>
+                  </div>
+
+                  <div class="Button-entrar">
+                    <button  type="submit" class="create-class">
+                        <a href="./page-materia-estudante">Entrar</a>
+                     </button>
+                  </div>
+                
+
+                  <div class="esqueceu-senha">
+                      Esqueceu sua senha? <a href="">Clique aqui</a>
+                  </div>
+
+              </fieldset>
+          </form>
+          <footer>
+              <p>
+                  <img src="./images/icons/warning.svg" alt="Aviso importante">
+                  Importante! <br> Preencha todos os dados
+              </p>
+              <button  type="submit" class="create-class">
+                    <a href="./tela-cadastro">Cadastre - se</a>
+              </button>
+          </footer>  
+      </main>
+    </div>
+
+    
+
+</body>
+</html>

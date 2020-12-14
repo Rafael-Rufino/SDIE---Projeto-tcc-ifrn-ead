@@ -1,0 +1,123 @@
+/* ferramenta */
+
+.dropdown{
+	margin:12px;
+	
+}
+
+.dropdown-ferramenta{
+    position: relative;
+    display: inline-block;
+	/* margin-right: 20px; */
+
+
+}
+.dropbtn-ferramenta {
+    background-color:#F0F0F7;
+    color:#727272;
+    /* padding: 5px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	text-transform:uppercase;
+	margin-right:5px;
+	height:40px;
+	width: 150px;
+
+  }
+
+
+.dropbtn-ferramenta:hover {
+	background-color:#FF9A00;
+	color:#FFFFFF;
+}
+
+/* minha ferramenta */
+
+.dropdown-content-ferramenta {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 150px;
+    overflow: auto;
+    z-index: 1;
+    font-size: 14px;
+  }
+  .dropdown-content-ferramenta a {
+    color: black;
+    padding: 5px 4px;
+    text-decoration: none;
+    display: block;
+    
+  
+  
+  }
+  .dropdown-content-ferramenta a:hover {
+	background-color:#FF9A00;
+	color:white;
+  }
+
+/* ate aqui */
+
+
+
+/*Meu Perfil*/
+.dropbtn {
+    background-color:white;
+    color:#727272;
+    /* padding: 5px; */
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	text-transform:uppercase;
+	height: 40px;
+	width: 145px;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color:#FF9A00;
+    color:white;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    overflow: auto;
+    z-index: 1;
+    font-size: 12px;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 3px 4px;
+    text-decoration: none;
+    display: block;
+ 
+    
+  
+  
+  }
+  
+  .dropdown a:hover {
+	  color:white;
+	  background-color:#FF9A00;
+	}
+  
+  .show {display: block;}
+
+ /* ate aqui  */
+
+ @media (max-width:600px){
+  .dropbtn-ferramenta{
+		width: 150px;
+	
+
+	}
+ }

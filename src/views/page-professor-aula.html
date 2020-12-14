@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDIE | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="./images/logo-sdie.svg"  type="image/png">  <!-- propriedade usada para color icones no title -->
+
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/header.css">
+	<link rel="stylesheet" href="./styles/partials/forms.css">
+		<!-- <link rel="stylesheet" href="./styles/partials/page-area-estudante.css"> -->
+    <link rel="stylesheet" href="./styles/partials/page-professor-aula.css">
+    <link rel="stylesheet" href="./styles/partials/minha-conta.css">
+
+
+    <script src="./scripts/minha-conta.js"></script>
+    <script src="./scripts/minha-ferramenta.js"></script>
+  
+
+    <link href="https://fonts.googleapis.com/css2?
+    family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;
+    display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+    crossorigin="anonymous"></script>
+
+
+</head>
+
+
+
+<body id="area-restrita-estudante">
+    
+
+    <div id="container">
+        <header class="page-header">
+          <div class="top-bar-container">
+                <a href="./tela-login">
+                    <img src="./images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="./images/logo-sdie.svg"alt="SDIE">
+
+          </div>
+          <div class="header-content">
+			  <div class="conteudo-top">
+				<strong>Área disponivel ao Professor</strong>
+			  </div>
+
+
+            <div class="topo-header">             
+				<div class="ferramenta-topo">
+                <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn"><i class="fas fa-chalkboard-teacher"></i> Meu Perfil <i class="fa fa-caret-down"></i></button>
+                    <div id="myDropdown" class="dropdown-content">
+                      <a href=""><i class="fas fa-user"></i> Olá, Rafael Rufino</a>
+                      <a href="./page-materia-professores"><i class="fas fa-chalkboard"></i> Materias</a>
+					  <a href="./page-estudante"><i class="fas fa-clipboard-list"></i> Lista de Presença</a>
+					  <a href="./page-professor-aula"><i class="fas fa-chalkboard"></i> Aulas</a>
+                      <a href="./page-cadastro-materia"><i class="fas fa-chalkboard"></i> Cadastrar materias</a>
+                       <a href="./page-topico"><i class="far fa-comment-alt"></i> Mural de Duvidas</a>
+					  <a href="./"><i class="fas fa-sign-out-alt"></i> Logout</a>
+					  
+                    </div>
+                </div>
+
+                <div class="dropdown-ferramenta">
+                    <button onclick="dFunction()" class="dropbtn-ferramenta"><i class="fas fa-list-ul"></i> Ferramenta<i class="fa fa-caret-down"></i></button>
+                    <div id="myDropdown-ferramenta" class="dropdown-content-ferramenta">
+         
+                      <a href=""><i class="fab fa-google-drive"></i> One drive</a>
+                 
+                    </div>
+				</div>
+			</div>
+				
+
+            </div>
+
+           
+           
+ 
+              <form id="search-teachers">
+               
+                  <div class="select-block">
+                    <label for="subject">Matéria</label>
+                    <select name="subject" id="subject">
+                        <option value=""  hidden =""> Selecione uma opção</option>
+                        <option value=""> Português</option>
+                        <option value=""> Matematica</option>
+                        <option value=""> Historia</option>
+                        <option value=""> Geografia</option>
+                        <option value=""> Inglês</option>
+                        <option value=""> Literatura</option>
+                        <option value=""> Fisica</option>
+                        <option value=""> Quimica</option>
+                    </select>
+                  </div>
+                  <div class="select-block">
+                      <label for="weekday">Dia da semana</label>
+                      <select name="weekday" id="weekday">
+                        <option value="" hidden =""> Selecione uma opção</option>
+                        <option value=""> Segunda - Feira</option>
+                        <option value=""> Terça - feira</option>
+                        <option value=""> Quarta - feira</option>
+                        <option value=""> Quinta - Feira</option>
+                        <option value=""> Sexta - feira</option>
+
+                      </select>
+                  </div>
+                  <div class="input-block">
+                      <label for="time"> Horario</label>
+                      <input name="time" id="time"  type="time" value="{{filters.time}}">
+                  </div>
+
+                  <button type="submit">Filtrar</button>
+                
+       
+               
+                   
+              </form>
+            
+
+        
+          </div>
+                 
+      
+          
+		</header>
+		<!-- <div class="container-site"> -->
+			<section class="menu_lado">
+				<!-- <div class="menu_lado"> -->
+					<div class="menu">
+						<nav>
+							<div class="menuMobile">
+									<div class="mm_line"></div>
+									<div class="mm_line"></div>
+									<div class="mm_line"></div>
+							</div>
+							
+							<ul>
+								<div class="perfil">
+									<div class="foto-perfil">
+										<img src="./images/perfil.svg" alt="foto">
+									</div>
+									
+									<div class="nome-perfil">
+										<p>Rafael Rufino dos Santos</p>
+		
+									</div>
+									
+								</div>
+								
+		
+								<li><a href="./page-materia-professores"><i class="fas fa-chalkboard"></i> Materias</a></li>
+								<li><a href=""><i class="fas fa-clipboard-list"></i> Lista de Presença</a></li>
+								<li><a style="background-color:#F27E35; color:white;"; href="./page-aula-estudante"><i class="fas fa-chalkboard"></i> Aulas</a></li>
+								<li><a href="./page-cadastro-materia"><i class="fas fa-chalkboard"></i> Cadastrar Materias</a></li>
+								<li><a href="./page-topico"><i class="far fa-comment-alt"></i> Mural de Dúvidas</a></li>
+								<li><a style = "color:red"; href="./"><i class="fas fa-sign-out-alt"></i> Logouf</a></li>
+					
+		
+							</ul>
+						</nav>
+					</div>
+				<!-- </div> -->
+				
+			</section>
+		<div class="container-geral">
+            <div class="materia">
+                <div class="foto-materia">
+                    <img src="./images/perfil.svg" alt="foto">
+
+                    <h2>Diego Fernandes</h2>
+
+
+                </div>
+            <div class="semana">
+                <h3>quimica</h3>
+                <h4>Segunda - Feira</h4>
+
+            </div>
+         
+
+            <p>
+
+                Aula de Físico-Química. 
+
+                Utiliza a matemática para a construção de suas bases teóricas, 
+                mostrando que as relações físicas com as substâncias químicas através de cálculos efetuados,
+                para confirmação dos dados experimentais.
+                Disponivel,
+                <p>
+                 Acessar:   <a href=" https://apps.google.com/meet/">https://apps.google.com/meet/</a>
+                </p>
+       
+            </p>
+            <div class="button-materia">
+
+                <div class="btn-editar">
+                    <button>
+                        <a href="./page-cadastro-materia"><i class="fas fa-chalkboard"></i> Editar</a>
+
+                    </button>
+                </div>
+              
+                <div class="btn-mural">
+                    <button>
+                        <a href="./page-topico"><i class="far fa-comment-alt"></i> Mural de Duvidas</a>
+                    </button>
+                </div>
+
+               
+
+            </div>
+
+
+        </div>
+
+		
+		</div>
+		
+				<div class="container flexColumn">
+					
+					<div class="footer_copy">
+						Copyright - Todos os direitos reservados
+					</div>
+		
+				</div>
+			
+		
+		</div>
+		
+		
+    
+      
+
+</body>
+
+
+</html>

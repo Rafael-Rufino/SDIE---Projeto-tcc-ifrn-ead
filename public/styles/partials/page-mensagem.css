@@ -1,0 +1,199 @@
+#page-mensagem #container{
+    width:100vw;
+    height: 100vh;
+}
+
+#page-mensagem .page-header .header-content{
+    margin-bottom: 6.4rem;
+    line-height: 40px;
+ 
+
+}
+#page-mensagem .page-header .header-content p{
+    display: contents;
+    justify-content:center;
+    color: #11E26F;
+   
+}
+
+#page-mensagem main{
+    background: var(--color-box-base);
+    width: 100%;
+    max-width: 74rem;
+    border-radius: .8rem;
+    margin: -3.2rem auto 3.2rem;
+    padding-top: 6.4rem;
+    border: 1px solid var(--color-line-in-white);
+
+}
+#page-mensagem fieldset{
+    border: none;
+    padding: 0 2.4rem;
+}
+
+#page-mensagem fieldset legend{
+    font: 700 2.4rem Archico;
+    color: var(--color-secondary);
+    
+    margin-bottom: 2.4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.6rem;
+
+    border-bottom: 1px solid var(---color-line-in-white);
+}
+
+#page-mensagem fieldset legend button{
+    background: nome;
+    border: 0;
+    color: var(--color-primary);
+    font: 700 1.6rem Archico;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+
+#page-mensagem fieldset+fieldset{
+    margin-top: 6.4rem;
+
+}
+
+#page-mensagem .input-block+.input-block,
+#page-mensagem .input-block+.textarea-block,
+#page-mensagem .select-block+.input-block{
+    margin-top: 2.4rem;
+
+}
+
+#page-mensagem main footer{
+    padding: 4rem 2.4rem;
+
+    background: var(--color-box-footer);
+    border-top: 1px solid var(--color-line-in-while);
+    margin-top: 6.4rem;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-bottom: 1.6rem; 
+    margin-bottom: 2.4rem;
+}
+.cabecalho h3{
+    font: 700 2.4rem Archico;
+    color: var( --color-primary-lighter);
+ 
+    align-items: center;
+    
+   
+}
+.cabecalho .bnt-voltar{
+    font-size:14px;
+    padding:5px;
+    width: 15%;
+    text-align: center;
+    background-color: var(--color-secondary);
+    color: var(--color-button-text);
+    border : 1px solid var(--color-secondary);
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.bnt-voltar:hover{
+    background: var(--color-secondary-dark);
+
+}
+
+
+#page-mensagem main footer p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--color-text-complement);
+
+}
+
+#page-mensagem main footer p img{
+    margin-right:2rem;
+}
+
+#page-mensagem main footer button {
+    width: 100%;
+    height: 5.6rem;
+    background: var(--color-primary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    font: 700 1.9rem Archico;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.2s;
+    margin-top: 3.2rem;
+    cursor: pointer;
+
+}
+#page-mensagem main footer button:hover{
+    background: var(--color-primary-lighter);
+}
+
+.schedule-item+.schedule-item{
+    margin-top: 3.2rem;
+    padding-top: 3.2rem;
+    border-top: 1px solid var(--color-line-in-while);
+}
+
+button a{
+    text-decoration: none;
+    color: var(--color-button-text);
+}
+
+@media (min-width: 700px){
+    #page-mensagem #container{
+        max-width: 100vw;
+    }
+
+    #page-mensagem .page-header  .header-content{
+        margin-bottom:0;
+
+    }
+    #page-mensagem main fieldset{
+        padding: 0 64px;
+    }
+    .schedule-item{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr;
+        column-gap: 1.6rem;
+    }
+
+    #page-mensagem #schedule-items .select-block+.input-block,
+    #page-mensagem #schedule-items .input-block+.input-block {
+        margin-top: 0;
+        
+    }
+
+    #page-mensagem main footer{
+        padding: 40px 64px;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    #page-mensagem main footer button{
+        margin-top: 0;
+        width: 200px;
+
+    }
+  
+}

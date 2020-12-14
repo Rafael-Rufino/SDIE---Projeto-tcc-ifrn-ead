@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SDIE | Sua plataforma de estudos online</title>
+    <link rel="shortcut icon" href="./images/logo-sdie.svg"  type="image/png">  <!-- propriedade usada para color icones no title -->
+
+
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/partials/header.css">
+    <link rel="stylesheet" href="./styles/partials/forms.css">
+    <link rel="stylesheet" href="./styles/partials/page-mural.css">
+
+    <link href="https://fonts.googleapis.com/css2?
+    family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;
+    display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+		integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY"
+		crossorigin="anonymous"></script>
+
+    <script src ="./scripts/addField.js" defer></script>
+
+
+   
+    
+</head>
+
+<body id="page-mural">
+
+    <div id="container">
+        <header class="page-header">
+         
+          <div class="top-bar-container">
+            <a href="./page-topico">
+                <img src="./images/icons/back.svg" alt="Voltar">
+            </a>
+            <img src="./images/logo-sdie.svg" alt="SDIE">
+
+            </div>
+
+          <div class="header-content">
+              <strong>Bem vindo ao Fórum de dúvidas</strong><br>
+              <p>Tire as suas dúvidas com toda há comunidade da plataforma.</p>
+          </div>
+        </header>
+
+      <main>
+          <form action="/save-classes" id="create-class" method="POST">
+              <fieldset>
+                  <div class="cabecalho">
+                    <h3>Mural de Duvidas</h3>
+                    <button class = "bnt-nova-mensagem">
+                      <a href="./page-mensagem">Criar um novo Topico</a>
+                    </button>
+                  </div>
+
+
+                  <div class="input-block">
+                    <label for="name"></label>
+                    <input name="name" id="name">
+                </div>
+
+                  
+             
+                 
+
+                  <div class="textarea-block">
+                      <label for="bio"></label>
+                      <textarea name="bio" id="bio" ></textarea>
+                  </div>
+
+
+                  <div class="bloco">
+
+                    <button  type="submit" class="bnt-responder">
+                        <a href="./page-mural">Responder ao tópico</a>
+                    </button>
+                    <p>
+                      Enviado por  Rafael Rufino dos Santos em  27/05/2020
+                    </p>
+
+
+                  </div>
+
+
+                  <div class="textarea-block">
+                    <label for="bio"></label>
+                    <textarea name="bio" id="bio" ></textarea>
+                 </div>
+
+                 <div class="bloco">
+
+                  <button  type="submit" class="bnt-responder">
+                      <a href="./page-mural">Enviar</a>
+                  </button>
+                </div>
+              </fieldset>
+
+         
+          </form>
+          <!-- <footer>
+            
+          </footer>   -->
+        
+      </main>
+      <div class="container flexColumn">
+					
+        <div class="footer_copy">
+          Copyright - Todos os direitos reservados
+        </div>
+  
+      </div>
+    </div>
+
+    
+
+</body>
+</html>
