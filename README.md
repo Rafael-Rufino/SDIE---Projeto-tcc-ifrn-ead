@@ -51,13 +51,13 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - [Node.js](https://nodejs.org/en/)
 - [Sqlite](https://sqlite.org/docs.html)
 
-## :heavy_check_mark: :computer: Resultado Web
+## :heavy_check_mark: :computer: Prototipo da Aplicação
 
 - O layout está disponível no **[Figma](https://www.figma.com/file/XN5gMbp4UIsWUbN88R24JM/SDIE-(SISTEMA-DE-INTEGRA%C3%87%C3%83O-ESCOLAR)?node-id=186883%3A449)**;
 
 
 
-## :heavy_check_mark: :iphone: Resultado Web
+## :heavy_check_mark: :computer: Resultado Web
 
 <h1 align="center">
     <img alt="Web Home" src="./.github/home.png" width="300px">
@@ -65,6 +65,8 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Web page-estudante" src="./.github/page-estudante.png" width="300px">
     <img alt="Web adicionarmateria" src="./.github/adicionarMateria.png" width="300px">
 </h1>
+
+## :heavy_check_mark: :computer: Video da Aplicação Web
 
 <h1 align="center">
     <img alt="Web" src="./.github/Video.gif" width="900px">
@@ -78,6 +80,9 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
     <img alt="Mobile adicionarmateria" src="./.github/Mobile-adicionar.png" width="200px">
     <img alt="Mobile cadastro" src="./.github/Mobile-cadastro.png" width="200px">
 </h1>
+
+## :heavy_check_mark: :iphone: Video da Versão Mobile
+
 <h1 align="center">
     <img alt="Web" src="./.github/mobile.gif" width="900px">
 </h1>
