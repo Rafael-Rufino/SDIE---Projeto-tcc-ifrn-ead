@@ -30,7 +30,7 @@
 
 O <strong>SDIE</strong> é uma aplicação Web voltado para promover o ensino a distância em Escolas públicas.  
 <br/>
-Essa aplicação foi construída para integrar professores e alunos da rede pública, permitindo o estudo extraclasse de forma remota o<strong>Sistema de Intergração Escolar</strong> é um plataforma que auxilia no compartilhamento de conteúdo de forma integrada, e que facilite essa conexão extraclasse.  
+Essa aplicação foi construída para integrar professores e alunos da rede pública, permitindo o estudo extraclasse de forma remota o <strong>Sistema de Intergração Escolar</strong> é um plataforma que auxilia no compartilhamento de conteúdo de forma integrada, e que facilite essa conexão extraclasse.  
 <br/>
 A ideia de criar uma aplicação voltada para escolas da rede pública, surgiu da necessidade de promover o ensino de forma a distancia devido a <strong>Crise mundial do coronavírus</strong> que afetou todo o sistema de ensino público.
 
@@ -109,7 +109,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 
 ```sh
   # Instale as dependências
-  $ npm int -y 
+  $ npm install 
 
   ## Crie o banco de dados
   $ cd server
